@@ -11,7 +11,7 @@ body{
     font-style: normal;
 }
 .carromimg1{
-    transform: translateY(90px);
+    transform: translateY(70px);
 }
 .intro h1{
     font-weight: 700;
@@ -22,12 +22,12 @@ body{
     font-size: 35px;
 }
 .logandsign1{
-    transform: translateY(140px);
+    transform: translateY(150px);
 }
 .logandsign1 button{
     position: relative;
-    width: 90px;
-    height: 45px;
+    width: 120px;
+    height: 42px;
     border-color: transparent;
     border-radius: 5px;
     left: 8px;
@@ -35,7 +35,9 @@ body{
     color: white;
     font-family: "Anta", sans-serif;
     cursor: pointer;
+    font-size: 18px;
 }
 .logandsign1 .signb1{
     background-color: red;
+    left: 12px;
 }
