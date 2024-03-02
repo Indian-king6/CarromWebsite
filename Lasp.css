@@ -1,23 +1,100 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+  
 body {
     margin: 0;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: brown;
-    font-family: "Anta", sans-serif;
+    background-color: #f4f4f4; /* Set your preferred background color */
+    font-family: "Anta", sans-serif; /* Set your preferred font family */
 }
-.loginwr{
+  
+.loginwr {
+    background-color: #fff; /* Set a background color for the container */
+    padding: 15px; /* Reduced padding */
+    border-radius: 10px;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.1); /* Reduced box-shadow intensity */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 400px; /* Optional: Reduce width if desired */
+    height: 440px; /* Remove fixed height for flexibility */
+    border: 1px solid #ccc; /* Replace with a lighter border color */
+  }
+  
+.fbs {
+    margin-top: 10px; /* Reduced margin */
+}
+.fbs > *:first-child {
+    margin-bottom: 20px; /* Apply margin to the first child */
+}
+  
+.inputb {
     position: relative;
-    width: 350px;
-    height: 390px;
-    background: transparent;
-    border: 2px solid white;
-    border-radius: 5px;
-    backdrop-filter: blur;
+    margin-bottom: 10px; /* Reduced margin */
 }
+  
+.inputb input {
+    width: 100%;
+    padding: 8px 5px; /* Adjust padding as needed */
+    font-size: 14px; /* Slightly reduced font size */
+    border: none;
+    border-bottom: 1px solid #ccc;
+    outline: none;
+    background: transparent;
+}
+  .inputb label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    transition: 0.5s;
+    font-size: 14px; /* Slightly reduced font size */
+    color: #555;
+}
+  
+.inputb input:focus + label,
+.inputb input:valid + label {
+    top: -20px;
+    font-size: 12px; /* Slightly reduced font size */
+    color: #007bff; /* Change color on focus or when valid */
+}
+  
+.icon {
+    width: 12px; /* Reduce icon size */
+    height: 12px;
+}
+  
+.reglink {
+    margin-top: 20px; /* Increase margin-top */   
+}
+  
+.btn {
+    background-color: #007bff; /* Match button color to focused input color */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px; /* Adjust button height as needed */
+    font-size: 14px;
+    cursor: pointer;
+}
+.remfor {
+      margin-bottom: 20px; /* Increase margin-bottom */
+}
+.remember-label {
+    font-size: 12px; /* Reduce font size */
+}
+  
+.forgot-link {
+    font-size: 12px; /* Reduce font size */
+    margin-left: 10px; /* Separate horizontally */
+}
+  
+  
