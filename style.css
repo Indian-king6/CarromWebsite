@@ -25,6 +25,17 @@ body{
     transform: translateY(140px);
 }
 .logandsign1 button{
-    width: 60px;
-    height: 30px;
+    position: relative;
+    width: 90px;
+    height: 45px;
+    border-color: transparent;
+    border-radius: 5px;
+    left: 8px;
+    background-color: black;
+    color: white;
+    font-family: "Anta", sans-serif;
+    cursor: pointer;
+}
+.logandsign1 .signb1{
+    background-color: red;
 }
