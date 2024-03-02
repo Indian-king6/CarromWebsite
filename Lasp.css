@@ -9,5 +9,15 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: brown; /* Add a background color if needed */
+    background-color: brown;
+    font-family: "Anta", sans-serif;
+}
+.loginwr{
+    position: relative;
+    width: 350px;
+    height: 390px;
+    background: transparent;
+    border: 2px solid white;
+    border-radius: 5px;
+    backdrop-filter: blur;
 }
