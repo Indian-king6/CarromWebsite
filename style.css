@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: brown;
+    color: white;
+    font-family: "Anta", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.carromimg1{
+    transform: translateY(90px);
+}
+.intro h1{
+    font-weight: 700;
+    font-size: 50px;
+}
+.intro h3{
+    color: black;
+    font-size: 35px;
+}
+  
