@@ -15,7 +15,7 @@ body {
 }
   
 .loginwr {
-    background-color: #fff; /* Set a background color for the container */
+    background-color: yellow; /* Set a background color for the container */
     padding: 15px; /* Reduced padding */
     border-radius: 10px;
     box-shadow: 0 0 4px rgba(0, 0, 0, 0.1); /* Reduced box-shadow intensity */
