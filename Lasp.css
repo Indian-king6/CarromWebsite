@@ -10,8 +10,8 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: brown; /* Set your preferred background color */
-    font-family: "Anta", sans-serif; /* Set your preferred font family */
+    background-color: brown;
+    font-family: "Anta", sans-serif;
 }
   
 .loginwr {
