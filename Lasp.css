@@ -96,4 +96,9 @@ body {
     margin-left: 10px; /* Separate horizontally */
 }
   
-  
+.signupwr{
+    background-color: yellow;
+    padding: 15px;
+    width: 420px;
+    height: 460px;
+}
