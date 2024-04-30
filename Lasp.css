@@ -26,7 +26,6 @@ body {
     text-align: center;
     width: 400px; /* Optional: Reduce width if desired */
     height: 440px; /* Remove fixed height for flexibility */
-    border: 1px solid #ccc; /* Replace with a lighter border color */
   }
   
 .fbs {
