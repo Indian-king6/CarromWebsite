@@ -1,4 +1,5 @@
 import psycopg2
+import flask
 
 # Replace these with your PostgreSQL connection details
 dbname = 'usrpsc'
